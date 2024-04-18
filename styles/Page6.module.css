@@ -1,0 +1,47 @@
+/* Page1.module.css */
+
+/* Main container */
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 100%;
+  height: 100vh; /* Set the height of the background to full screen */
+  margin: 0 auto;
+  padding: 2rem;
+  background-image: linear-gradient(to right, #0071da, #00ddff);
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading style */
+.heading {
+  color: #000e3b;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+/* Description style */
+.description {
+  color: #463535;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+/* Text box style */
+.textbox {
+  padding: 1.5rem; /* Increase padding to make the text box larger */
+  border-radius: 8px;
+  background-color: #f0f0f0; /* Background color of the text box */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Box shadow for the text box */
+  margin-top: 1.5rem; /* Margin top to create space between elements */
+  width: 90%; /* Set the width of the text box */
+  max-width: 600px; /* Set the maximum width of the text box */
+}
+
